@@ -30,4 +30,14 @@ export const Titulo = styled.h1`
   border-bottom: 1px solid #bdc3c7;
   padding-bottom: 10px;
 `
+
+export const Input = styled.input`
+  background-color: rgb(206, 214, 224);
+  padding: 4px;
+  font-weight: bold;
+  border-radius: 8px;
+  width: 100%;
+  border-color: gray;
+  margin-bottom: 8px;
+`
 export default EstiloGlobal

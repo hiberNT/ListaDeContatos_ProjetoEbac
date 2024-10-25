@@ -1,14 +1,5 @@
 import styled from 'styled-components'
 
-export const Input = styled.input`
-  background-color: rgb(206, 214, 224);
-  padding: 4px;
-  font-weight: bold;
-  border-radius: 8px;
-  width: 100%;
-  border-color: gray;
-`
-
 export const Botao = styled.button`
   font-weight: bold;
   font-size: 12px;
@@ -30,4 +21,18 @@ export const Filtros = styled.div`
   display: block;
   margin-top: 16px;
   margin-botton: 8px;
+`
+
+export const BotaoVoltar = styled.button`
+  padding: 8px;
+  width: 100%;
+  border-radius: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: rgb(206, 214, 224);
+
+  &:hover {
+    background-color: rgb(71 85 102);
+  }
 `

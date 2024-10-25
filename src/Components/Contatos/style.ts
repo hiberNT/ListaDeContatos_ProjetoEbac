@@ -1,15 +1,6 @@
 import styled from 'styled-components'
 import variaveis from '../../styles/variaveis'
 
-/*export const Categorias = styled.div`
-  border-bottom: 1px solid red;
-  margin-top: 8px;
-
-  span {
-    margin-left: 38px;
-  }
-`*/
-
 export const Card = styled.div`
   background-color: #fcfcfc;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
